@@ -16,10 +16,10 @@
   grid-area: "docs";
 }
 
-.footer {
+.myfooter {
   grid-area: "footer";
 }
 
-.header {
+.myheader {
   grid-area: "header";
 }
