@@ -10,13 +10,14 @@
         should always be on top
       </div>
       <div class=nav>
+        {% for item in site.data.folders.toc %}
+        <h3>{{item.title}}</h3>
         <ul>
-          <li>
-            <a href="/eric-docs">Home</a>
-          </li>
-          <li>
-            <a href="blah">Some Page</a>
-          </li>
+        {% for entry in item.subfolderitems %}
+        <li><a href="{{entry.url}}">{{entry.title}}</a></li>
+        {% endfor %}
+        </ul>
+        {% endfor %}
       </div>
               <div class=myfooter>
         <footer>
