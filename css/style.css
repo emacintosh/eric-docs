@@ -22,4 +22,5 @@
 
 .myheader {
   grid-area: header;
+  color: blue
 }
