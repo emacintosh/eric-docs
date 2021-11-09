@@ -1,3 +1,8 @@
+---
+title: My page
+parent: General
+---
+
 # blah
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum massa massa, at vestibulum ex lobortis at. Phasellus ac urna dui. Nunc tempor tincidunt sem quis molestie. Aliquam suscipit, augue eget pharetra consequat, est enim aliquet odio, vestibulum tempor nisl nulla vel erat. Vestibulum a justo eu elit convallis convallis sed id est. Phasellus nec lorem rutrum, dapibus lectus ac, lacinia mi. Vestibulum pulvinar maximus laoreet. Praesent finibus maximus iaculis. Nunc eu semper erat, in pellentesque augue. Praesent pretium nec odio vitae tempor. Integer arcu justo, mollis nec egestas sagittis, cursus nec eros. Nam sagittis nisi id nisl scelerisque, vel tempor tellus fermentum. Proin eleifend condimentum aliquam.
 
