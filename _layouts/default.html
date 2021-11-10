@@ -18,7 +18,7 @@
           <ul>
             {% for page in site.pages %}
                 {% if page.parent == entry.title %}
-                  <li>{{ page.title }}</li>
+            <li><a href={{ page.permalink }}>{{ page.title }}</a></li>
                 {% endif %}
           {% endfor %}
           </ul>
