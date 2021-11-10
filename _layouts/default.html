@@ -14,10 +14,10 @@
         <h3>{{item.title}}</h3>
         <ul>
         {% for entry in item.subfolderitems %}
-        <li><a href="{{entry.url}}">{{entry.title}}</a>
+        <li>{{entry.title}}
           <ul>
             {% for page in site.pages %}
-                {% if page.parent == entry.title %}
+                {% if page.parent == entry.name %}
             <li><a href={{ page.permalink }}>{{ page.title }}</a></li>
                 {% endif %}
           {% endfor %}
