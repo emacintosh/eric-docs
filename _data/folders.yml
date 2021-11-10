@@ -1,11 +1,29 @@
 toc:
-  - title: End User Docs
+  - title: User Docs
+    category: user-docs
     subfolderitems:
       - title: General
-        url: /thing1.html
+        name: user-docs-general
       - title: Builds
-        url: /thing2.html
+        name: user-docs-builds
       - title: Day-2
-        url: /thing3.html
+        name: users-docs-day2
       - title: XaaS
-        url: /things4.html
+        name: user-docs-xaas
+  - title: Admin Docs
+    category: admin-docs
+    subfolderitems:
+      - title: Infrastructure
+        name: admin-docs-infr      
+      - title: vRA
+        name: admin-docs-vra
+      - title: vRO
+        name: admin-docs-vro
+      - title: vLCM
+        name: admin-docs-vlcm
+      - title: vIDM
+        name: admin-docs-vidm
+      - title: Github
+        name: admin-docs-github
+      - title: Documentation
+        name: admin-docs-docs
