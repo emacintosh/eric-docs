@@ -38,11 +38,11 @@ label {
 }
 
 .checkbox + label:before {
-  content: "+";
+  content: "\002B";
 }
 
 .checkbox:checked + label:before {
-  content: "-";
+  content: "\2212";
 }
 
 .checkbox ~ ul {
