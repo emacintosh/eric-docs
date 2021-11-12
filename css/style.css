@@ -24,3 +24,11 @@
   grid-area: header;
   color: blue
 }
+
+.checkbox + label:before {
+  content: "+";
+}
+
+.checkbox:checked + label:before {
+  content: "-";
+}
