@@ -15,7 +15,7 @@
         <ul>
         {% for entry in item.subfolderitems %}
         <li><input type="checkbox" id="{{entry.title}}" class="checkbox">
-          <label for="{{entry.title}}">{{entry.title}}
+          <label for="{{entry.title}}"></label>{{entry.title}}
           <ul>
             {% for page in site.pages %}
                 {% if page.parent == entry.name %}
