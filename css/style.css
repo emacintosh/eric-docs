@@ -36,3 +36,11 @@ li {
 .checkbox:checked + label:before {
   content: "-";
 }
+
+.checkbox ~ ul {
+  display:none
+}
+
+.checkbox:checked ~ ul {
+  display: block;
+}
