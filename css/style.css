@@ -12,6 +12,12 @@ li {
   list-style:none;
 }
 
+label {
+  padding-right:10px;
+  padding-left:10px;
+  border: 1px solid black
+}
+
 .nav {
   grid-area: nav;
 }
