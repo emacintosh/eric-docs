@@ -7,15 +7,15 @@
   <body>
     <div class=site>
       <div class=myheader>
-        should always be on top
+        should always be on top probably
       </div>
       <div class=nav>
         {% for item in site.data.folders.toc %}
         <h3>{{item.title}}</h3>
         <ul>
         {% for entry in item.subfolderitems %}
-        <li><input type="checkbox" id={{entry.title}} class="checkbox">
-          <label for={{entry.title}}>{{entry.title}}
+        <li><input type="checkbox" id="{{entry.title}}" class="checkbox">
+          <label for="{{entry.title}}">{{entry.title}}
           <ul>
             {% for page in site.pages %}
                 {% if page.parent == entry.name %}
@@ -40,7 +40,6 @@
           {{ content }}
         </section>
       </div>
-
     </div>
   </body>
 </html>
