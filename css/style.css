@@ -8,6 +8,10 @@
     "footer footer";
 }
 
+li {
+  list-style:none;
+}
+
 .nav {
   grid-area: nav;
 }
