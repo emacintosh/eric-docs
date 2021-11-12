@@ -15,7 +15,7 @@ li {
 label {
   padding-right:10px;
   padding-left:10px;
-  border: 1px solid black
+  border: 1px solid black;
 }
 
 .nav {
@@ -44,7 +44,7 @@ label {
 }
 
 .checkbox ~ ul {
-  display:none
+  display:none;
 }
 
 .checkbox:checked ~ ul {
