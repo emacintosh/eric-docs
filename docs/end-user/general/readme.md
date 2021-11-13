@@ -1,6 +1,6 @@
 ---
 title: General
-permalink: /user-docs/
+permalink: user-docs/
 ---
 
 # Stuff and Whatnot
