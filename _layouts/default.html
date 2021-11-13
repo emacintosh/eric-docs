@@ -20,7 +20,7 @@
           <ul>
             {% for page in site.pages %}
                 {% if page.parent == entry.name %}
-            <li><a href={{ page.permalink }}>{{ page.title }}</a></li>
+            <li><a href={{site.baseurl}}/{{ page.permalink }}>{{ page.title }}</a></li>
                 {% endif %}
           {% endfor %}
           </ul>
@@ -42,7 +42,6 @@
       function clicked(e) {
         const ss = window.sessionStorage;
         ss.setItem(e.id,e.checked);
-        alert(ss.getItem(e.id));
       }
 
       function onload() {
