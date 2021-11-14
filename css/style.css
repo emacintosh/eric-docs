@@ -1,6 +1,7 @@
 .site {
   display: grid;
   height: 100vh;
+  color:#AAAAAA
   grid-template-columns: 1fr 7fr;
   grid-template-rows: 1fr 9fr;
   grid-template-areas: 
@@ -22,7 +23,7 @@ label {
 
 .nav {
   grid-area: nav;
-  background-color:#464646;
+  background-color:#181818;
   color: #AAAAAA;
   border-right: 1px solid grey;
 }
@@ -34,7 +35,7 @@ label {
 
 .links {
   grid-area: links;
-  background-color: #5D5D5D;
+  background-color: #212121;
 }
 
 .links ul {
@@ -43,7 +44,7 @@ label {
 
 .logo {
   grid-area: logo;
-  background-color: #5D5D5D;
+  background-color: #212121;
 }
 
 .checkbox + label:before {
