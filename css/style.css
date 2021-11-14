@@ -24,20 +24,22 @@ label {
   grid-area: nav;
   background-color:#464646;
   color: #AAAAAA;
+  border-right: 1px solid grey;
 }
 
 .content {
   grid-area: docs;
+  background-color:#1B1B1B;
 }
 
 .links {
   grid-area: links;
-  background-color: #464646
+  background-color: #5D5D5D;
 }
 
 .logo {
   grid-area: logo;
-  background-color: #464646
+  background-color: #5D5D5D;
 }
 
 .checkbox + label:before {
