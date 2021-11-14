@@ -50,3 +50,7 @@ label {
 .checkbox:checked ~ ul {
   display: block;
 }
+
+a {
+  color: #AAAAAA;
+}
