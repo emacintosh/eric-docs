@@ -2,7 +2,7 @@
   display: grid;
   height: 100vh;
   color: #AAAAAA;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 7fr;
   grid-template-areas: 
     "logo links"
@@ -14,7 +14,7 @@
 }
 
 .folder-ul {
-  padding-left:2px;
+  padding-left:4px;
 }
 
 .page-ul {
