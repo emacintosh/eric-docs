@@ -18,7 +18,7 @@
         </ul>
       </nav>
       <div class=nav>
-        <ul>
+        <ul class="parent-ul">
         {% for item in site.data.folders.toc %}
         <li><input type="checkbox" id="{{item.title}}" class="checkbox" onclick="clicked(this)" hidden>
           <label for="{{item.title}}"></label>{{item.title}}
