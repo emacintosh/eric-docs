@@ -6,9 +6,17 @@
   </head>
   <body onload="onload()">
     <div class=site>
-      <div class=myheader>
-        should always be on top
+      <div class=logo>
+        <h1>LOGO</h1>
       </div>
+      <nav class="links">
+        <ul>
+          <li>Home</li>
+          <li>MyApp</li>
+          <li>Yammer</li>
+          <li>Code</li>
+        </ul>
+      </nav>
       <div class=nav>
         <ul>
         {% for item in site.data.folders.toc %}
