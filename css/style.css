@@ -13,6 +13,10 @@
   padding-left:1px;
 }
 
+.folder-ul {
+  padding-left:2px;
+}
+
 li {
   list-style:none;
   margin: 5px;
