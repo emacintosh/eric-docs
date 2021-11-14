@@ -18,7 +18,7 @@
 }
 
 .page-ul {
-  padding-left:4px;
+  list-style-position: inside;
 }
 
 li {
