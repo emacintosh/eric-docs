@@ -23,7 +23,7 @@ label {
 .nav {
   grid-area: nav;
   background-color:#464646;
-  color: AAAAAA;
+  color: #AAAAAA;
 }
 
 .content {
