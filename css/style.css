@@ -8,12 +8,9 @@
     "nav docs";
 }
 
-ul {
-  padding: 0;
-}
-
 li {
   list-style:none;
+  margin: 5px;
 }
 
 label {
@@ -36,12 +33,6 @@ label {
   color: blue
 }
 
-.flex-li {
-  display:flex;
-  justify-content: space-between;
-  padding-right: 5px;
-}
-  
 .checkbox + label:before {
   content: "\002B";
 }
