@@ -3,7 +3,7 @@
   height: 100vh;
   color: #AAAAAA;
   grid-template-columns: 1fr 7fr;
-  grid-template-rows: 1fr 6fr;
+  grid-template-rows: 1fr 5fr;
   grid-template-areas: 
     "logo links"
     "nav docs";
@@ -14,6 +14,10 @@
 }
 
 .folder-ul {
+  padding-left:2px;
+}
+
+.page-ul {
   padding-left:2px;
 }
 
