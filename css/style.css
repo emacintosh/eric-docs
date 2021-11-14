@@ -14,7 +14,6 @@ ul {
 
 li {
   list-style:none;
-  margin: 5px;
 }
 
 label {
@@ -40,7 +39,7 @@ label {
 .flex-li {
   display:flex;
   justify-content: space-between;
-  padding: 5px;
+  padding-right: 5px;
 }
   
 .checkbox + label:before {
