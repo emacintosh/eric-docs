@@ -31,7 +31,7 @@ label {
 }
 
 .links {
-  grid-area: logo;
+  grid-area: links;
   background-color: #464646
 }
 
