@@ -13,15 +13,17 @@
         {% for item in site.data.folders.toc %}
         <li>
           <div class="flex-li">
+            <a href="#">{{item.title}}</a>
             <input type="checkbox" id="{{item.title}}" class="checkbox" onclick="clicked(this)" hidden>
-            <label for="{{item.title}}"></label>{{item.title}}
+            <label for="{{item.title}}"></label>
           </div>
         <ul>
         {% for entry in item.subfolderitems %}
         <li>
           <div class="flex-li">
+            <a href="#">{{item.title}}</a>
             <input type="checkbox" id="{{entry.title}}" class="checkbox" onclick="clicked(this)" hidden>
-            <label for="{{entry.title}}"></label>{{entry.title}}
+            <label for="{{entry.title}}"></label>
           </div>
           <ul>
             {% for page in site.pages %}
