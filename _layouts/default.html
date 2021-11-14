@@ -16,17 +16,17 @@
             <div class="flex-li">
               <a href="#">{{item.title}}</a>
               <label for="{{item.title}}"></label>
+              <input type="checkbox" id="{{item.title}}" class="checkbox" onclick="clicked(this)" hidden>
             </div>
-            <input type="checkbox" id="{{item.title}}" class="checkbox" onclick="clicked(this)" hidden>
             <ul>
               {% for entry in item.subfolderitems %}
                 <li>
                   <div class="flex-li">
                     <a href="#">{{entry.title}}</a>
                     <label for="{{entry.title}}"></label>
+                    <input type="checkbox" id="{{entry.title}}" class="checkbox" onclick="clicked(this)" hidden>
+                   
                   </div>
-                                      <input type="checkbox" id="{{entry.title}}" class="checkbox" onclick="clicked(this)" hidden>
-
                   <ul>
                     {% for page in site.pages %}
                       {% if page.parent == entry.name %}
