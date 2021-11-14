@@ -10,35 +10,35 @@
         should always be on top
       </div>
       <div class=nav>
+      <ul>
         {% for item in site.data.folders.toc %}
-        <li>
-          <div class="flex-li">
-            <a href="#">{{item.title}}</a>
-            <input type="checkbox" id="{{item.title}}" class="checkbox" onclick="clicked(this)" hidden>
-            <label for="{{item.title}}"></label>
-          </div>
-        <ul>
-        {% for entry in item.subfolderitems %}
-        <li>
-          <div class="flex-li">
-            <a href="#">{{entry.title}}</a>
-            <input type="checkbox" id="{{entry.title}}" class="checkbox" onclick="clicked(this)" hidden>
-            <label for="{{entry.title}}"></label>
-          </div>
-          <ul>
-            {% for page in site.pages %}
-                {% if page.parent == entry.name %}
-                  <li><a href={{site.baseurl}}{{page.url}}>{{ page.title }}</a></li>
-                {% endif %}
-          {% endfor %}
-          </ul>
-
-        </li>
-          
+          <li>
+            <div class="flex-li">
+              <a href="#">{{item.title}}</a>
+              <input type="checkbox" id="{{item.title}}" class="checkbox" onclick="clicked(this)" hidden>
+              <label for="{{item.title}}"></label>
+            </div>
+            <ul>
+              {% for entry in item.subfolderitems %}
+                <li>
+                  <div class="flex-li">
+                    <a href="#">{{entry.title}}</a>
+                    <input type="checkbox" id="{{entry.title}}" class="checkbox" onclick="clicked(this)" hidden>
+                    <label for="{{entry.title}}"></label>
+                  </div>
+                  <ul>
+                    {% for page in site.pages %}
+                      {% if page.parent == entry.name %}
+                        <li><a href={{site.baseurl}}{{page.url}}>{{ page.title }}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </li>          
+              {% endfor %}
+            </ul>
+          </li>
         {% endfor %}
-        </ul>
-        </li>
-        {% endfor %}
+      </ul>
       </div>
       <div class=content>
         <section>
