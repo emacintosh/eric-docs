@@ -2,7 +2,7 @@
   display: grid;
   height: 100vh;
   color: #AAAAAA;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 7fr;
   grid-template-areas: 
     "logo links"
