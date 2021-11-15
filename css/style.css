@@ -44,6 +44,7 @@ label {
 .content {
   grid-area: docs;
   background-color:#1B1B1B;
+  padding: 10px;
 }
 
 .links {
